@@ -26,6 +26,13 @@ function show(){
     }
     show();
     
-    console.log(functionVar); // Throws ReferenceError
-    console.log(functionLet); // Throws ReferenceError
-    console.log(functionConst); // Throws ReferenceError
+console.log(functionVar); // Throws ReferenceError
+console.log(functionLet); // Throws ReferenceError
+console.log(functionConst); // Throws ReferenceError
+
+//New Block - Practice task
+{
+    var newBlockVar = "I'm a new block-scoped var for the practise task.";
+    let newBlockLet = "I'm a new block-scoped let for the practise task.";
+    const newBlockConst = "I'm a new block-scoped const for the practise task.";
+}
